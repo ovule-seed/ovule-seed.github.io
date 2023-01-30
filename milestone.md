@@ -5,54 +5,53 @@ description: "代表作"
 header-img: "img/zhihu.jpg"
 ---
 
-<p align="center">中国容积党党歌
+<p align="center">中国容积党党歌</p>
 
-  [作词] 中容中央 
+<p align="center">[作词] 中容中央 </p> 
 
-  我们是容积党的接班人，
+<p align="center">我们是容积党的接班人</p>，
 
-  传承总书记的光荣思想，
+<p align="center">传承总书记的光荣思想，</p>
 
-  爱祖国，爱真理，
+<p align="center">爱祖国，爱真理，</p>
 
-  容积党员是我们
+<p align="center">容积党员是我们</p>
 
-  骄傲的名称。
+<p align="center">骄傲的名称。</p>
 
-  不怕困难，不怕敌人，
+<p align="center">不怕困难，不怕敌人</p>，
 
-  顽强学习，坚决斗争。
+<p align="center">顽强学习，坚决斗争。</p>
 
-  向着胜利勇敢前进，
+<p align="center">向着胜利勇敢前进，</p>
 
-  向着胜利勇敢前进前进，
+<p align="center">向着胜利勇敢前进前进，</p>
 
-  向着胜利勇敢前进，
+<p align="center">向着胜利勇敢前进，</p>
 
-  我们是容积党的接班人。
+<p align="center">我们是容积党的接班人。</p>
 
+<p align="center">我们是总书记的接班人，</p>
 
-  我们是总书记的接班人，
+<p align="center">沿着黄健博的光荣路程，</p>
 
-  沿着黄健博的光荣路程，
+<p align="center">爱祖国，爱人民，</p>
 
-  爱祖国，爱人民，
+<p align="center">黄健博思想将由</p>
 
-  黄健博思想将由
+<p align="center">我们来传承</p>
 
-  我们来传承
+<p align="center">时刻准备，建立功勋，</p>
 
-  时刻准备，建立功勋，
+<p align="center">要把敌人，消灭干净。</p>要把敌人，消灭干净。
 
-  要把敌人，消灭干净。
+<p align="center">为着理想勇敢前进，</p>
 
-  为着理想勇敢前进，
+<p align="center">为着理想勇敢前进前进，</p>
 
-  为着理想勇敢前进前进，
+<p align="center">为着理想勇敢前进，</p>
 
-  为着理想勇敢前进，
-
-  我们是总书记的接班人。</p>
+<p align="center">我们是总书记的接班人。</p>
 
 
 
