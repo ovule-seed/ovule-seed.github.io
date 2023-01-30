@@ -4,12 +4,7 @@ description: "记得从下往上读"
 ---
 
 
-{% for post in site.posts reversed %}
-    <li class="title-li">
-        <span class="write-time"># 发表于： {{ post.date | date_to_string }} </span>
-        <a class="blog-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
