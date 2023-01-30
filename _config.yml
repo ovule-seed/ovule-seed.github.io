@@ -16,12 +16,12 @@ owner:
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
-douban_username:  # 你的豆瓣id
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+douban_username: 没有豆瓣账号但是空着不好看 # 你的豆瓣id
+twitter_username: 没有推特账号但是空着不好看
+github_username: ovule-seed
+facebook_username: 没有Facebook账号但是空着不好看
+weibo_username: 没有厕所账号但是空着不好看
+zhihu_username: 没有知乎账好但是空着不好看
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -50,9 +50,9 @@ defaults:
 comments :
   provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
   duoshuo :
-    short_name :  # 填写你的 disqus id
+    short_name : ovuleseed # 填写你的 disqus id
   disqus :
-      short_name :  # 填写你的 disqus id
+      short_name : ovuleseed # 填写你的 disqus id
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  # 填写你  google_analytics id
