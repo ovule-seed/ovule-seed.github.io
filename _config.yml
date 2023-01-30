@@ -13,7 +13,7 @@ owner:
   bio: "中容中央general secretary" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/DH(英).jpg # 浏览器地址栏小图标，可自定义更改
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username: 没有豆瓣账号但是空着不好看 # 你的豆瓣id
