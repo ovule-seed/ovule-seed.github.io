@@ -43,6 +43,47 @@ description: "博客页面"
 
 
 
+ <div id="message-form" class="ui form">
+            <input type="hidden" name="parentMessage.id" value="-1">
+            <input type="hidden" id="win1_lei" name="window.name" value="unknown">
+            <input type="hidden" id="win2_lei" name="browser.name" value="unknown">
+            <!--留言区-->
+            <div class="field">
+                <textarea name="content" placeholder="请输入留言信息..."></textarea>
+            </div>
+            <div class="ui grid">
+                <!--输入姓名-->
+                <div class="five wide column">
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="nickname" placeholder="昵称"
+                                   th:value="${session.user}!=null ? ${session.user.nickname}">
+                        </div>
+                    </div>
+                </div>
+
+                <!--输入邮箱-->
+                <div class="five wide column">
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="mail icon"></i>
+                            <input type="text" name="email" placeholder="邮箱 (请填写有效的邮箱)"
+                                   th:value="${session.user}!=null ? ${session.user.email}">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right aligned six wide column">
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <button id="messagepost-btn" type="button" class="ui teal button m-mobile-wide"><i
+                                class="edit icon"></i>发布
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
 
