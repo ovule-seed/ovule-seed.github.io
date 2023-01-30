@@ -43,7 +43,8 @@ description: "博客页面"
 
 
 
- <div id="message-form" class="ui form">
+<!--新增留言-->
+        <div id="message-form" class="ui form">
             <input type="hidden" name="parentMessage.id" value="-1">
             <input type="hidden" id="win1_lei" name="window.name" value="unknown">
             <input type="hidden" id="win2_lei" name="browser.name" value="unknown">
@@ -83,8 +84,86 @@ description: "博客页面"
                 </div>
             </div>
         </div>
+<script>
+    var info = new Browser();
+    currentTimeHtml1 = ' ' + info.os + ' ' + info.osVersion + ' ';
+    currentTimeHtml2 = ' ' + info.browser + info.version + ' ';
+    document.getElementById("win1_lei").value = currentTimeHtml1;
+    document.getElementById("win2_lei").value = currentTimeHtml2;
+</script>
+/评论表单验证
+    $('.ui.form').form({
+        fields: {
+            title: {
+                identifier: 'content',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入评论内容'
+                }
+                ]
+            },
+            content: {
+                identifier: 'nickname',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入你的大名'
+                }]
+            },
+            type: {
+                identifier: 'email',
+                rules: [{
+                    type: 'email',
+                    prompt: '请填写正确的邮箱地址'
+                }]
+            }
+        }
+    });
+$('#messagepost-btn').click(function () {
+        var boo = $('.ui.form').form('validate form');
+        if (boo) {
+            console.log('校验成功');
+            postData();
+        } else {
+            console.log('校验失败');
+        }
+    });
+//发送请求给后端
+    function postData() {
+        $("#message-container").load(/*[[@{/messages}]]*/"", {
+            "parentMessage.id": $("[name='parentMessage.id']").val(),
+            // "blog.id" : $("[name='blog.id']").val(),
+            "nickname": $("[name='nickname']").val(),
+            "email": $("[name='email']").val(),
+            "content": $("[name='content']").val(),
+            "windowName": $("[name='window.name']").val(),
+            "browserName": $("[name='browser.name']").val()
+        }, function (responseTxt, statusTxt, xhr) {
+//        $(window).scrollTo($('#message-container'),500);
+            clearContent();
+        });
+    }
+//新增留言
+    @PostMapping("/message")
+    public String post(Message message, HttpSession session, Model model){
+        User user = (User) session.getAttribute("user");
+        //设置头像
+        if(user != null){
+            message.setAvatar(user.getAvatar());
+            message.setAdminMessage(true);
+        } else {
+            message.setAvatar(avatar);
+        }
+        if(message.getParentMessage().getId()!=null){
+            message.setParentMessageId(message.getParentMessage().getId());
+        }
 
-<div class="ui bottom attached m-margin-top">
+        //System.out.println(message);
+        messageService.saveMessage(message);
+        List<Message>  messages = messageService.listMessage();
+        model.addAttribute("messages",messages);
+        return "message :: messageList";
+    }
+            <div class="ui bottom attached m-margin-top">
             <div id="message-container" class="ui teal segment">
                 <div th:fragment="messageList">
                     <div class="ui threaded comments" style="max-width: 100%;">
@@ -165,5 +244,21 @@ description: "博客页面"
             </div>
 
         </div>
-
-
+            // 初始化加载
+    $(function () {
+        $("#message-container").load(/*[[@{/messagecomment}]]*/"messagecomment");
+    });
+            //查询留言
+    @GetMapping("/messagecomment")
+    public String messages(Model model) {
+        List<Message> messages = messageService.listMessage();
+        model.addAttribute("messages", messages);
+        return "message::messageList";
+    }
+            function reply(obj) {
+        var messageId = $(obj).data('messageid');
+        var messageNickname = $(obj).data('messagenickname');
+        $("[name='content']").attr("placeholder", "@" + messageNickname).focus();
+        $("[name='parentMessage.id']").val(messageId);
+        $(window).scrollTo(0, 500);
+    }
