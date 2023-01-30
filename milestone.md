@@ -9,7 +9,7 @@ header-img: "img/zhihu.jpg"
 
 <p align="center">[作词] 中容中央 </p> 
 
-<p align="center">我们是容积党的接班人</p>，
+<p align="center">我们是容积党的接班人，</p>
 
 <p align="center">传承总书记的光荣思想，</p>
 
@@ -19,7 +19,7 @@ header-img: "img/zhihu.jpg"
 
 <p align="center">骄傲的名称。</p>
 
-<p align="center">不怕困难，不怕敌人</p>，
+<p align="center">不怕困难，不怕敌人，</p>
 
 <p align="center">顽强学习，坚决斗争。</p>
 
@@ -43,7 +43,7 @@ header-img: "img/zhihu.jpg"
 
 <p align="center">时刻准备，建立功勋，</p>
 
-<p align="center">要把敌人，消灭干净。</p>要把敌人，消灭干净。
+<p align="center">要把敌人，消灭干净。</p>
 
 <p align="center">为着理想勇敢前进，</p>
 
