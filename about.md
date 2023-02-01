@@ -11,7 +11,7 @@ header-img: "img/green.jpg"
 
 党大常委：国土容积化体系思想的忠实崇尚者，党的利益的坚定捍卫者 monster
 
-党大常委：Tashan Midlle School 崇实班人物，久经考验的无产阶级战士 Mr.Huang
+党大常委：Tashan Middle School 崇实班元老级成员，久经考验的无产阶级战士 Mr.Huang
 
 党大常委：中国容积党的主要创始人，国土容积化体系思想的忠实崇尚者 Mr. Luo
 
