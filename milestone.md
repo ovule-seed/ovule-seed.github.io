@@ -5,7 +5,7 @@ description: "代表作"
 header-img: "img/zhihu.jpg"
 ---
 
-<p align="center">中国容积党党歌</p>
+<p align="center"><font size=5>中国容积党党歌</font></p>
 
 <p align="center">[作词] 中容中央 </p> 
 
