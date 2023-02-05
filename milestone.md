@@ -7,7 +7,7 @@ header-img: "img/zhihu.jpg"
 
 <p align="center"><font size=5>中国容积党党歌</font></p>
 
-<p align="center"<font size=4>[作词] 中容中央</font></p> 
+<p align="center">[作词] 中容中央</p> 
 
 <p align="center">我们是容积党的接班人，</p>
 
