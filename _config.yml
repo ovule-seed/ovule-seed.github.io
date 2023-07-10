@@ -1,14 +1,14 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
+baseurl: https://ovule-seed.github.io
 url: https://ovule-seed.github.io
 date_format: "ordinal"
 title: 
 subtitle: "中国容积党中央委员会"
 description: "中国容积党门户网站"
 keywords: 中国容积党中央委员会,the Central Committee of the Capacity Party of China
-timezone: Asia/Shanghai
+timezone: Asia/Zhejinag
 encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2023
@@ -40,7 +40,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: CCCPC
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -60,8 +60,8 @@ highlight_theme: github
 author: CCCPC
 organization: 
 organization_url: 
-github_username: mzlogin
-location:the People’s Republic of China
+github_username: ovule-seed
+location: the People’s Republic of China
 email: 2447920685@qq.com
 
 # ---------------- #
