@@ -4,7 +4,7 @@
 baseurl: https://ovule-seed.github.io
 url: https://ovule-seed.github.io
 date_format: "ordinal"
-title: the Central Committee of the Capacity Party of China
+title: "中国容积党中央委员会"
 subtitle: "中国容积党中央委员会"
 description: "中国容积党门户网站"
 keywords: 中国容积党中央委员会,the Central Committee of the Capacity Party of China
@@ -39,7 +39,7 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
+        enabled: false
         image_alt: CCCPC
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
