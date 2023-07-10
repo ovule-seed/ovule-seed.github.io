@@ -2,18 +2,18 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://ovule-seed.github.io
 date_format: "ordinal"
 title: 
 subtitle: "中国容积党中央委员会"
 description: "中国容积党门户网站"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+keywords: 中国容积党中央委员会,the Central Committee of the Capacity Party of China
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2023
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: ovule-seed/ovule-seed.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: CCCPC
 organization: 
 organization_url: 
 github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+location:the People’s Republic of China
+email: 2447920685@qq.com
 
 # ---------------- #
 #    Navigation    #
