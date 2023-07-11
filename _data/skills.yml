@@ -1,19 +1,28 @@
-- name: Software Engineer Keywords
+- name: 一个宗旨
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 追求真相
+- name: 一个核心
+  keywords:
+      - 国土容积化体系
 
-- name: Mobile Developer Keywords
+- name: 一个精神
   keywords:
-      - Android
-      - Reverse Engineering
+      - 坚决服从党的领导
 
-- name: Windows Developer Keywords
+- name: 三大灵魂
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - 实事求是
+      - 敢于批评
+      - 共同创新
+
+- name: 三大法宝
+  keywords:
+      - 科学技术
+      - 星星之火
+      - 实践实验
+
+- name: 三大理论
+  keywords:
+      - 国土容积化理论
+      - 客观事实理论
+      - 新联社会主义思想
