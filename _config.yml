@@ -57,7 +57,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: CCCPC
+author: ovuleseed
 organization: 
 organization_url: 
 github_username: ovule-seed
@@ -94,10 +94,10 @@ navs:
     href: /wiki/
     label: 维基
 
-  -
-    href: /links/
-    label: 链接
-    mobile-hidden: true
+#  -
+#   href: /links/
+#   label: 链接
+#   mobile-hidden: true
 
   -
     href: /about/
@@ -141,7 +141,7 @@ collections:
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
-comments_provider: giscus
+comments_provider: 
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
