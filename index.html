@@ -4,55 +4,6 @@ class: home
 css: ['pages/index.css']
 comments: false
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>访问限制页面</title>
-    <script type="text/javascript">
-        window.onload = function() {
-            // 获取用户的IP地址
-            var userIP = "";
-            fetch('https://api.ipify.org?format=json')
-                .then(response => response.json())
-                .then(data => {
-                    userIP = data.ip;
-
-                    // 设置被限制的IP地址
-                    var restrictedIP = "192.168.1.14"; // 这里替换成你要限制的IP地址
-
-                    // 检查用户IP是否等于被限制IP
-                    if (userIP === restrictedIP) {
-                        // 显示限制访问提示信息
-                        alert("你被限制访问该网页！");
-
-                        // 禁用所有脚本
-                        var allScripts = document.getElementsByTagName("script");
-                        for (var i = 0; i < allScripts.length; i++) {
-                            allScripts[i].remove();
-                        }
-                    } else {
-                        // 显示正常页面内容
-                        document.getElementById("content").style.display = "block";
-                    }
-                })
-                .catch(error => console.error(error));
-        };
-    </script>
-    <style>
-        #content {
-            display: none;
-        }
-    </style>
-</head>
-<body>
-    <!-- 限制访问提示信息 -->
-    <div id="restrictionMsg">
-        <h1>你被限制访问该网页！</h1>
-    </div>
-
-    <!-- 正常页面内容 -->
-    <div id="content">
         
 {% assign assets_base_url = site.url %}
 {% if site.cdn.jsdelivr.enabled %}
@@ -218,9 +169,5 @@ comments: false
     <!-- /pagination -->
 </section>
 <!-- /section.content -->
-
-    </div>
-</body>
-</html>
 
 
