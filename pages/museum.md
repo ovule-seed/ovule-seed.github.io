@@ -27,7 +27,8 @@ permalink: /museum/
 <a href="#展品6">展品6：中国容积党第一份纸质党徽</a>
 <br>
 <a href="#展品7">展品7：中容中央总书记黄健博主持塔山中学第一届校园艺术节语言艺术专场比赛</a>
-
+<br>
+<a href="#展品8">展品8：初版中容中央门户网站</a>
 
 
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
@@ -100,3 +101,19 @@ permalink: /museum/
 </tr>
 </table>
 简介：（方莹 摄）时任中容中央总书记黄健博于2023年主持主持塔山中学第一届校园艺术节语言艺术专场比赛
+
+<div id="展品8">展品8：初版中容中央门户网站（2023年7月31日收入）<div>
+<table>
+<tr>
+<td><img src="https://i.imgtg.com/2023/07/31/Onq5Ja.png" border=0></td>
+<td><img src="https://i.imgtg.com/2023/07/31/OnqUBN.png" border=0></td>
+<td><img src="https://i.imgtg.com/2023/07/31/OnqBfS.png" border=0></td>
+</tr>
+<br>
+<tr>
+<td><img src="https://i.imgtg.com/2023/07/31/OnqWKC.png" border=0></td>
+<td><img src="https://i.imgtg.com/2023/07/31/OnqqxK.png" border=0></td>
+<td><img src="https://i.imgtg.com/2023/07/31/Onqb0L.png" border=0></td>
+<td><img src="https://i.imgtg.com/2023/07/31/OnqxMi.png" border=0></td>
+</tr>
+</table>
