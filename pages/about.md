@@ -42,7 +42,7 @@ permalink: /about/
 {% endif %}
 </ul>
 
-<b> QQ邮箱：[2447920685@qq.com](2447920685@qq.com)</b>
+<b>邮箱： <a href="mailto:2447920685@qq.com">2447920685@qq.com</a></b>
 
 ## Keywords
 
