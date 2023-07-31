@@ -42,6 +42,7 @@ permalink: /about/
 {% endif %}
 </ul>
 
+<b>• QQ邮箱：[2447920685@qq.com](2447920685@qq.com)>
 
 ## Keywords
 
