@@ -86,7 +86,7 @@ permalink: /museum/
 <td><img src="https://i.imgtg.com/2023/07/06/OxgEYC.png" border=0></td>
 </tr>
 </table>
-简介：（应瑶 摄）时任中容中央总书记黄健博2023年在塔山中学报告厅为5班、6班讲授《道德与法治》中《国家主席》一课时珍贵画面。
+简介：（应瑶 摄）2023年5月，时任中容中央总书记黄健博在应瑶老师推荐下，塔山中学报告厅为5班、6班讲授《道德与法治》中《国家主席》一课时珍贵画面。
 
 <div id="展品6">展品6：中国容积党第一份纸质党徽（2023年7月26日收入）</div>
 <p align="center"><img src="https://i.imgtg.com/2023/07/26/Oi5Bnt.jpg" width="300" height="400" border="0"></p>
