@@ -117,3 +117,4 @@ permalink: /museum/
 <td><img src="https://i.imgtg.com/2023/07/31/OnqxMi.png" border=0></td>
 </tr>
 </table>
+简介：2023年1月30日，中国容积党中央委员会（CCCPC）官方网站成立，网址为：ovule-seed.github.io。中容中央总书记黄健博任网站管理员。成立的首日，黄健博向该网站上传 了《黄健博选集》中的所有文件以及对全体人员的亲切问候、嘱托。
