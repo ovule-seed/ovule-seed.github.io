@@ -97,10 +97,26 @@
 <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">
         <div class="container">
-            <h1><a href="{{ site.url }}/" title="{{ site.title }}">
-              <img src="https://pic.imgdb.cn/item/64d452c21ddac507ccdca8c4.png" alt="title" style="width: 30px; height: 30px">
-              {{ site.title }}
-            </a></h1>
+            
+            <style>
+              .container {
+                display: flex;
+                align-items: center; /* 使用flex布局，垂直居中对齐 */
+              }
+            
+              .container img {
+                margin-right: 10px; /* 图片右侧添加一定的间距 */
+              }
+            </style>
+            <div class="container">
+              <h1>
+                <a href="{{ site.url }}/" title="{{ site.title }}">
+                  <img src="https://pic.imgdb.cn/item/64d452c21ddac507ccdca8c4.png" alt="title" style="width: 30px; height: 30px">
+                  {{ site.title }}
+                </a>
+              </h1>
+            </div>
+            
             <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
