@@ -31,7 +31,8 @@ permalink: /museum/
 <a href="#展品8">展品8：初版中容中央门户网站</a>
 <br>
 <a href="#展品9">展品9：国土容积计算方式手稿</a>
-
+<br>
+<a href="#展品10">展品10：2023年八二四会晤</a>
 
 
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
@@ -125,3 +126,23 @@ permalink: /museum/
 <div id="展品9">展品9：国土容积计算方式手稿（2023年8月11日收入）</div>
 <p align="center"><img src="https://pic.imgdb.cn/item/64d627c31ddac507cc48b0d2.jpg" width="300" height="400" border="0"></p>
 简介（黄健博 书、摄）：时任中容中央总书记黄健博于2022年11月21日早向应瑶报告了国土容积以及国土容积的大小，并得到应瑶的肯定。这反映了以黄健博同志为核心的党的第一代领导集体的伟大智慧，始终贯彻科技是第一生产力的南巡讲话精神。至此，中国容积党一大确立的最低纲领——计算出国土容积的大小，已经全面完成。
+
+<div id="展品10">展品10：2023年八二四会晤（2023年8月24日收入）<div>
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/64e72e44661c6c8e54b2b39a.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e44661c6c8e54b2b374.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e44661c6c8e54b2b368.jpg" border=0></td>
+</tr>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/64e72e40661c6c8e54b2b1ea.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e44661c6c8e54b2b384.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e40661c6c8e54b2b1d1.jpg" border=0></td>
+</tr>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/64e72e40661c6c8e54b2b1be.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e40661c6c8e54b2b1a9.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/64e72e40661c6c8e54b2b19b.jpg" border=0></td>
+</tr>
+</table>
+简介：2023年8月24日，在时任五班班主任方莹组织下，塔山中学905班教室召开八二四会晤。会上，中容党员踊跃参与，时任中容中央总书记黄健博发表八月讲话。
