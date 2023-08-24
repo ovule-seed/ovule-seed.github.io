@@ -151,4 +151,5 @@ permalink: /museum/
 <a href="https://www.feijix.com/s/TKSw0N2">黄健博</a>
 <br>
 <a href="https://www.feijix.com/s/8jSwHWS">姜宜钧、冯奕滔、黄一修</a>
+<br>
 简介：（方莹 摄）2023年8月24日，在时任五班班主任方莹组织下，塔山中学905班教室召开八二四会晤。会上，中容党员踊跃参与，时任中容中央总书记黄健博发表八月讲话。
