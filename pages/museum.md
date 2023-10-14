@@ -158,7 +158,7 @@ permalink: /museum/
 <br>
 简介：（方莹 摄）2023年8月24日，在时任五班班主任方莹组织下，塔山中学905班教室召开八二四会晤。会上，中容党员踊跃参与，时任中容中央总书记黄健博发表八月讲话。
 
-<div id="展品11">展品11：诗朗诵：《石中玉》</div>
+<div id="展品11">展品11：诗朗诵：《石中玉》（2023年9月21日收入）</div>
 <table>
 <tr>
 <td><img src="https://pic.imgdb.cn/item/650eec1ac458853aef253e66.jpg" border=0></td>
@@ -171,7 +171,7 @@ permalink: /museum/
 <br>
 <b>总书记题词：极具激情的朗诵，正配极具正能量的诗歌</b>
 
-<div id="展品12">展品12：新时代万民伞</div>
+<div id="展品12">展品12：新时代万民伞（2023年10月14日收入）</div>
 <table>
 <tr>
 <td><img src="https://pic.imgdb.cn/item/652a9d49c458853aef298747.jpg" border=0></td>
