@@ -34,6 +34,8 @@ permalink: /museum/
 <a href="#展品10">展品10：2023年八二四会晤</a>
 <br>
 <a href="#展品11">展品11：诗朗诵：《石中玉》</a>
+<br>
+<a href="#展品12">展品12：新时代万民伞</a>
 
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
 	
@@ -168,3 +170,12 @@ permalink: /museum/
 视频链接：<a href="https://www.feijix.com/s/t0UDKz7m">视频链接</a>
 <br>
 <b>总书记题词：极具激情的朗诵，正配极具正能量的诗歌</b>
+
+<div id="展品12">展品12：新时代万民伞</div>
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/652a9d49c458853aef298747.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/652a9d48c458853aef2980a1.jpg" border=0></td>
+</tr>
+</table>
+简介：（黄健博 摄）黄健博新时代联邦特色社会主义万民伞，表现了党内外同志对时任中容中央总书记黄健博的信任、称颂。
