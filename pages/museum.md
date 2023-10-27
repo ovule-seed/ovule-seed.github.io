@@ -36,6 +36,8 @@ permalink: /museum/
 <a href="#展品11">展品11：诗朗诵：《石中玉》</a>
 <br>
 <a href="#展品12">展品12：新时代万民伞</a>
+<br>
+<a href="#展品13">展品13：研学留影（包括第一次以中容党员为主要角色的合影）</a>
 
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
 	
@@ -179,3 +181,20 @@ permalink: /museum/
 </tr>
 </table>
 简介：（黄健博 摄）黄健博新时代联邦特色社会主义万民伞，表现了党内外同志对时任中容中央总书记黄健博的信任、称颂。
+
+<div id="展品12">展品13：研学留影（2023年10月27日收入）</div>
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/653bc05bc458853aefac87e1.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/653bc05bc458853aefac8635.jpg" border=0></td>
+</tr>
+</table>
+特写：
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/653bc296c458853aefbc218b.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/653bc296c458853aefbc2278.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/653bc297c458853aefbc23c5.jpg" border=0></td>
+</tr>
+</table>
+简介：（时任教官 摄）第一次涵盖半数以上中容党员的合影以及部分党员特写，在中容历史上有重要意义。
