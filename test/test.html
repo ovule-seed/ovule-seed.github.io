@@ -11,11 +11,23 @@
         canvas {
             display: block;
         }
+        
     </style>
+    <style>
+    #celebration {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "黑体";
+        font-size: 72px;
+        color: black;
+    }
+</style>
 </head>
 <body>
     <canvas id="fireworksCanvas"></canvas>
-
+    <div id="celebration">光荣、伟大、正确的中国容积党万岁</div>
     <script>
         // 创建烟花爆炸效果
         function createFirework() {
@@ -126,6 +138,20 @@
 
         // 调用createFirework函数创建烟花效果
         createFirework();
+
+        //点击则播放烟花效果
+        document.addEventListener("click", function() {
+        createFirework();
+        });
+
+          // 延迟5秒后展现提示框并重定向
+        setTimeout(function() {
+            var result = confirm("是否回到主页面？");
+            if (result) {
+                window.location.href = "https://ovule-seed.github.io";
+            }
+        }, 5000);
     </script>
+    
 </body>
 </html>
