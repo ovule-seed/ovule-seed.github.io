@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>彩色烟花爆炸效果</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="fireworksCanvas"></canvas>
+
+    <script>
+        // 创建烟花爆炸效果
+        function createFirework() {
+            var canvas = document.getElementById("fireworksCanvas");
+            var context = canvas.getContext("2d");
+
+            var fireworks = [];
+            var particles = [];
+            var hue = Math.random() * 360;
+
+            function Particle(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = Math.random() * 6 - 3;
+                this.vy = Math.random() * 6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.decay = Math.random() * 0.05 + 0.01;
+            }
+
+            Particle.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.alpha -= this.decay;
+
+                if (this.alpha <= this.decay) {
+                    particles.splice(particles.indexOf(this), 1);
+                }
+            };
+
+            Particle.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 2, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
+            };
+
+            function Firework() {
+                this.x = Math.random() * canvas.width;
+                this.y = canvas.height;
+                this.vx = Math.random() * 2 - 1;
+                this.vy = Math.random() * -6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.exploded = false;
+                this.particles = [];
+            }
+
+            Firework.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.vy += 0.1;
+
+                if (this.vy >= 0) {
+                    this.explode();
+                }
+            };
+
+            Firework.prototype.explode = function() {
+                if (!this.exploded) {
+                    for (var i = 0; i < 100; i++) {
+                        var particle = new Particle(this.x, this.y);
+                        this.particles.push(particle);
+                        particles.push(particle);
+                    }
+                    this.exploded = true;
+                }
+            };
+
+            Firework.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
+            };
+
+            function updateFireworks() {
+                context.clearRect(0, 0, canvas.width, canvas.height);
+
+                for (var i = 0; i < fireworks.length; i++) {
+                    fireworks[i].update();
+                    fireworks[i].draw();
+                }
+
+                for (var i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                    particles[i].draw();
+                }
+
+                if (Math.random() < 0.1) {
+                    fireworks.push(new Firework());
+                    hue = Math.random() * 360;
+                }
+
+                if (fireworks.length > 100) {
+                    fireworks.splice(0, 1);
+                }
+            }
+
+            // 在页面加载完成后开始播放烟花效果
+            window.addEventListener("load", function() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+
+                setInterval(updateFireworks, 20);
+            });
+        }
+
+        // 调用createFirework函数创建烟花效果
+        createFirework();
+    </script>
+</body>
+</html>
