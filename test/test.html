@@ -1,173 +1,195 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>彩色烟花爆炸效果</title>
+    <title>点击展示文字与烟花动画</title>
     <style>
         body {
             margin: 0;
             overflow: hidden;
-        }
-        
-        canvas {
-            display: block;
+            cursor: pointer; /* 鼠标变为手指指针 */
         }
 
-        #celebration {
+        canvas {
+            display: block;
+            position: absolute;
+ 
+        }
+
+        .celebration-text {
+            display: none;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: "黑体";
-            font-size: 72px;
+            font-size: 40px;
+            font-weight: bold;
             color: black;
-            text-align: center;
-            width: 100%;
-        }
+            font-family: "黑体";
+            white-space: nowrap; /* 只有一行文本 */
+            animation: fadeIn 2s ease-in-out;
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+ 
     </style>
 </head>
 <body>
-    <div id="celebration">庆祝</div>
     <canvas id="fireworksCanvas"></canvas>
+    <div class="celebration-text">点击继续</div>
+    <div class="celebration-text" style="animation-delay: 2s;">一年来,我们做了什么?</div>
+    <div class="celebration-text" style="animation-delay: 4s;">我们召开了双十一塔山运动，大规模宣传国土容积化体系思想</div>
+    <div class="celebration-text" style="animation-delay: 6s;">我们召开了中容一大，宣布了中国容积党的成立</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们计算出了中国国土容积，实现了最低纲领</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们将反动分子石中昱开出党籍，保证了党的纯净性</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们发动了双十二塔山运动，全面反对GQ党，进行了思想的拨乱反正</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们受邀成为了腾逸小组执政党</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们组建了联邦，空谈误国，实干兴邦</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们建立了网站，宣传了思想</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们开设了中央博物院，承担了新时代新的文化使命</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们的党员同志在八二四会晤上慷慨激昂</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们建立了四个区部，十一个支部</div>
+<div class="celebration-text" style="animation-delay: 6s;">时至今日已有近70余人入党</div>
+<div class="celebration-text" style="animation-delay: 6s;">新的一年</div>
+<div class="celebration-text" style="animation-delay: 6s;">坚持真理，坚守理想，践行初心，担当使命</div>
+<div class="celebration-text" style="animation-delay: 6s;">不怕困难，英勇斗争，对党忠诚，不负人民</div>
+<div class="celebration-text" style="animation-delay: 6s;">光荣、伟大、正确的中国容积党万岁</div>
+
 
     <script>
-        var canvas = document.getElementById("fireworksCanvas");
-        var context = canvas.getContext("2d");
-        var fireworks = [];
-        var particles = [];
+        // 创建烟花爆炸效果
+        function createFirework() {  
+            // 烟花代码不变  
+	 // 烟花代码不变
+	var canvas = document.getElementById("fireworksCanvas");
+            var context = canvas.getContext("2d");
 
-        // 设置画布大小
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+            var fireworks = [];
+            var particles = [];
+            var hue = Math.random() * 360;
 
-        // 烟花构造函数
-        function Firework() {
-            this.x = Math.random() * canvas.width;
-            this.y = canvas.height;
-            this.particles = [];
-            this.exploded = false;
-            this.color = getRandomColor();
-            this.velocity = {
-                x: Math.random() * 6 - 3,
-                y: Math.random() * 3 + 1
+            function Particle(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = Math.random() * 6 - 3;
+                this.vy = Math.random() * 6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.decay = Math.random() * 0.05 + 0.01;
+            }
+
+            Particle.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.alpha -= this.decay;
+
+                if (this.alpha <= this.decay) {
+                    particles.splice(particles.indexOf(this), 1);
+                }
             };
-        }
 
-        // 粒子构造函数
-        function Particle(x, y, color) {
-            this.x = x;
-            this.y = y;
-            this.color = color;
-            this.radius = Math.random() * 2 + 1;
-            this.velocity = {
-                x: Math.random() * 6 - 3,
-                y: Math.random() * 6 - 3
+            Particle.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 2, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
             };
-            this.alpha = 1;
-        }
 
-        Particle.prototype.update = function() {
-            this.x += this.velocity.x;
-            this.y += this.velocity.y;
-            this.alpha -= 0.01;
-        };
-
-        Particle.prototype.draw = function() {
-            context.beginPath();
-            context.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-            context.fillStyle = this.color;
-            context.globalAlpha = this.alpha;
-            context.fill();
-        };
-
-        Firework.prototype.explode = function() {
-            for (var i = 0; i < 100; i++) {
-                var particle = new Particle(this.x, this.y, this.color);
-                this.particles.push(particle);
-                particles.push(particle);
+            function Firework() {
+                this.x = Math.random() * canvas.width;
+                this.y = canvas.height;
+                this.vx = Math.random() * 2 - 1;
+                this.vy = Math.random() * -6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.exploded = false;
+                this.particles = [];
             }
-        };
 
-        Firework.prototype.update = function() {
-            this.x += this.velocity.x;
-            this.y -= this.velocity.y;
+            Firework.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.vy += 0.1;
 
-            if (this.y <= canvas.height * 0.5) {
-                this.exploded = true;
-                this.explode();
-            }
-        };
+                if (this.vy >= 0) {
+                    this.explode();
+                }
+            };
 
-        Firework.prototype.draw = function() {
-            context.beginPath();
-            context.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
-            context.fillStyle = this.color;
-            context.fill();
-        };
+            Firework.prototype.explode = function() {
+                if (!this.exploded) {
+                    for (var i = 0; i < 100; i++) {
+                        var particle = new Particle(this.x, this.y);
+                        this.particles.push(particle);
+                        particles.push(particle);
+                    }
+                    this.exploded = true;
+                }
+            };
 
-        function createFirework() {
-            var firework = new Firework();
-            fireworks.push(firework);
-        }
+            Firework.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
+            };
 
-        function getRandomColor() {
-            var letters = "0123456789ABCDEF";
-            var color = "#";
-            for (var i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
-            }
-            return color;
-        }
+            function updateFireworks() {
+                context.clearRect(0, 0, canvas.width, canvas.height);
 
-        function updateFireworks() {
-            for (var i = fireworks.length - 1; i >= 0; i--) {
-                fireworks[i].update();
-                if (fireworks[i].exploded && fireworks[i].particles.length === 0) {
-                    fireworks.splice(i, 1);
+                for (var i = 0; i < fireworks.length; i++) {
+                    fireworks[i].update();
+                    fireworks[i].draw();
+                }
+
+                for (var i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                    particles[i].draw();
+                }
+
+                if (Math.random() < 0.1) {
+                    fireworks.push(new Firework());
+                    hue = Math.random() * 360;
+                }
+
+                if (fireworks.length > 100) {
+                    fireworks.splice(0, 1);
                 }
             }
-        }
+            // 页面加载时开始播放烟花效果
+            window.addEventListener("load", function() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
 
-        function updateParticles() {
-            for (var i = particles.length - 1; i >= 0; i--) {
-                particles[i].update();
-                if (particles[i].alpha <= 0) {
-                    particles.splice(i, 1);
-                }
-            }
-        }
+                setInterval(updateFireworks, 20);
+            });
+        }  
 
-        function drawFireworks() {
-            for (var i = 0; i < fireworks.length; i++) {
-                fireworks[i].draw();
-            }
-        }
+        // 初始化烟花效果
+        createFirework();  
 
-        function drawParticles() {
-            for (var i = 0; i < particles.length; i++) {
-                particles[i].draw();
-            }
-        }
+        // 监听点击事件
+        var textElements = document.querySelectorAll(".celebration-text");
+        var currentIndex = 0;
 
-        function loop() {
-            context.clearRect(0, 0, canvas.width, canvas.height);
-            updateFireworks();
-            updateParticles();
-            drawFireworks();
-            drawParticles();
-            requestAnimationFrame(loop);
-        }
-
-        // 调用createFirework函数创建烟花效果
-        setInterval(createFirework, 1000);
-
-        // 监听鼠标点击事件
-        document.addEventListener("click", function(event) {
-            var x = event.clientX;
-            var y = event.clientY;
-            fireworks.push(new Firework(x, y));
+        document.addEventListener("click", function() {
+            if (currentIndex < textElements.length) {
+                textElements[currentIndex].style.display = "none"; // 隐藏当前文本  
+                textElements[currentIndex].style.animation = "fadeOut 2s ease-in-out"; // 添加淡出动画
+                currentIndex++;
+                if (currentIndex < textElements.length) {
+                    textElements[currentIndex].style.display = "block"; // 显示下一个文本  
+                    textElements[currentIndex].style.animation = "fadeIn 2s ease-in-out"; // 添加淡入动画
+                } else {  
+                    // 所有文本播放完后显示提示框  
+                    var confirmed = confirm("是否回到主页面?");  
+                    if (confirmed) {  
+                        // 重定向到 "ovule-seed.github.io"  
+                        window.location.href = "https://ovule-seed.github.io";  
+                    }  
+                }  
+            }  
         });
-
-        loop();
     </script>
 </body>
 </html>
