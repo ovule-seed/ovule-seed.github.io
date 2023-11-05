@@ -15,16 +15,22 @@
  
         }
 
-        .celebration-text {
-            display: none;
-            position: absolute;
-	    text-align: center; /*将文本水平居中*/
-            transform: translate(-50%, -50%);
-            font-size: 40px;
-            font-weight: bold;
-            color: black;
-            font-family: "黑体";
-            animation: fadeIn 2s ease-in-out;
+	.celebration-text {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    text-align: center;
+	    font-size: 40px;
+	    font-weight: bold;
+	    color: black;
+	    font-family: "黑体";
+	    animation: fadeIn 2s ease-in-out;
+	}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
