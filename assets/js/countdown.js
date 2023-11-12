@@ -15,7 +15,7 @@ function updateCountdown() {
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
   // 更新页面上的倒计时
-  document.getElementById('countdown').innerHTML = `${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+  document.getElementById('countdown').innerHTML = `距离中容二大召开还有${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
 
   // 每秒更新一次
   setTimeout(updateCountdown, 1000);
