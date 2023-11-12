@@ -9,7 +9,6 @@ comments: false
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://fastly.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
 {% endif %}
-<script src="countdown.js"></script>
 <section class="banner">
     <div class="collection-head">
       <div class="container">
@@ -17,9 +16,6 @@ comments: false
           <div class="column two-thirds">
             <div class="collection-title">
               <h1 class="collection-header" id="sub-title"><span>{{ site.subtitle }}</span></h1>
-                <div class="countdown-section">
-                <div id="countdown" class="countdown-timer"></div>
-                </div>
               <div class="collection-info">
                 <span class="meta-info mobile-hidden">
                   <span class="octicon octicon-location"></span>
