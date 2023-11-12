@@ -10,21 +10,6 @@ comments: false
 {% assign assets_base_url = "https://fastly.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
 {% endif %}
 <!-- Include jQuery if needed -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-<!-- Include Countdown.js -->
-<script src="{{ assets_base_url }}/assets/js/countdown.js"></script>
-
-<!-- Initialize the countdown -->
-<script>
-    var targetDate = new Date('2023-12-31T23:59:59');
-    var countdownContainer = document.getElementById('countdown-container');
-    
-    // Initialize the countdown
-    var countdown = new Countdown(targetDate, function (time) {
-        countdownContainer.innerHTML = time.toString();
-    });
-</script>
 <section class="banner">
     <div class="collection-head">
       <div class="container">
