@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>伟大的建党一周年纪念活动——中国容积党中央委员会</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            cursor: pointer; /* 鼠标变为手指指针 */
+        }
+
+        canvas {
+            display: block;
+            position: absolute;
+ 
+        }
+
+
+        .celebration-text {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+            font-family: "黑体";
+            animation: fadeIn 2s ease-in-out;
+	    animation: fadeOut 2s ease-in-out;}
+   
+     .countdown-text {
+            display: none;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            font-family: "黑体";
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+ @keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+    </style>
+</head>
+<body>
+
+<center>
+<span style="font-family: 黑体;">
+  <font size="5">
+    <div id="countdown">
+    </div>
+</font>
+</span>
+</center>
+    <canvas id="fireworksCanvas"></canvas>
+    <div class="celebration-text">点击继续</div>
+    <div class="celebration-text" style="animation-delay: 2s;">一年来,我们做了什么?</div>
+    <div class="celebration-text" style="animation-delay: 4s;">我们召开了双十一塔山运动，大规模宣传国土容积化体系思想</div>
+    <div class="celebration-text" style="animation-delay: 6s;">我们召开了中容一大，宣布了中国容积党的成立</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们计算出了中国国土容积，实现了最低纲领</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们将反动分子石中昱开出党籍，保证了党的纯净性</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们发动了双十二塔山运动，全面反对GQ党，进行了思想的拨乱反正</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们受邀成为了腾逸小组执政党</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们组建了联邦，空谈误国，实干兴邦</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们建立了网站，宣传了思想</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们开设了中央博物院，承担了新时代新的文化使命</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们的党员同志在八二四会晤上慷慨激昂</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们建立了四个区部，十一个支部</div>
+<div class="celebration-text" style="animation-delay: 6s;">时至今日已有近70人入党</div>
+<div class="celebration-text" style="animation-delay: 6s;">宣传130余人次</div>
+<div class="celebration-text" style="animation-delay: 6s;">2023年11月20日</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们即将召开党的第二次全国代表大会</div>
+<div class="celebration-text" style="animation-delay: 6s;">喜迎中容二大，奋起全新征程</div>
+<div class="celebration-text" style="animation-delay: 6s;">新的一年</div>
+<div class="celebration-text" style="animation-delay: 6s;">我们</div>
+<div class="celebration-text" style="animation-delay: 6s;">坚持真理，坚守理想，践行初心，担当使命</div>
+<div class="celebration-text" style="animation-delay: 6s;">不怕困难，英勇斗争，对党忠诚，不负人民</div>
+<div class="celebration-text" style="animation-delay: 6s;">光荣、伟大、正确的中国容积党万岁</div>
+
+
+
+    <script>
+         var confirmation = confirm("注意！注意！注意！为庆祝光荣伟大正确的中国容积党成立一周年，庆祝即将召开的党的第二次全国代表大会，中容中央门户网站先开启该特别页面。如果你已经看过了，请点击“取消”以进入主页面。注意！注意！注意！");
+
+        // 判断用户的选择
+        if (confirmation) {
+            // 执行后续代码
+        } else {
+            // 重定向到 ovule-seed.github.io
+            window.location.href = "https://ovule-seed.github.io";
+        }
+var targetDate = new Date('2023-11-20T00:00:00').getTime();
+
+    // 更新倒计时函数
+    function updateCountdown() {
+      var currentDate = new Date().getTime();
+      var timeRemaining = targetDate - currentDate;
+
+      var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+      var countdownElement = document.getElementById('countdown');
+      countdownElement.innerHTML = '距离中国容积党诞生一周年·中容二大召开还有：'+days + ' 天 ' + hours + ' 小时 ' + minutes + ' 分钟 ' + seconds + ' 秒';
+    }
+
+    // 初始加载
+    updateCountdown();
+
+    // 每秒更新一次
+    setInterval(updateCountdown, 1000);
+        // 创建烟花爆炸效果、
+        function createFirework() {  
+            // 烟花代码不变  
+	 // 烟花代码不变
+	var canvas = document.getElementById("fireworksCanvas");
+            var context = canvas.getContext("2d");
+
+            var fireworks = [];
+            var particles = [];
+            var hue = Math.random() * 360;
+
+            function Particle(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = Math.random() * 6 - 3;
+                this.vy = Math.random() * 6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.decay = Math.random() * 0.05 + 0.01;
+            }
+
+            Particle.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.alpha -= this.decay;
+
+                if (this.alpha <= this.decay) {
+                    particles.splice(particles.indexOf(this), 1);
+                }
+            };
+
+            Particle.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 2, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
+            };
+
+            function Firework() {
+                this.x = Math.random() * canvas.width;
+                this.y = canvas.height;
+                this.vx = Math.random() * 2 - 1;
+                this.vy = Math.random() * -6 - 3;
+                this.alpha = 1;
+                this.color = "hsla(" + hue + ", 100%, 50%, " + this.alpha + ")";
+                this.exploded = false;
+                this.particles = [];
+            }
+
+            Firework.prototype.update = function() {
+                this.x += this.vx;
+                this.y += this.vy;
+                this.vy += 0.1;
+
+                if (this.vy >= 0) {
+                    this.explode();
+                }
+            };
+
+            Firework.prototype.explode = function() {
+                if (!this.exploded) {
+                    for (var i = 0; i < 100; i++) {
+                        var particle = new Particle(this.x, this.y);
+                        this.particles.push(particle);
+                        particles.push(particle);
+                    }
+                    this.exploded = true;
+                }
+            };
+
+            Firework.prototype.draw = function() {
+                context.beginPath();
+                context.arc(this.x, this.y, 3, 0, Math.PI * 2, false);
+                context.fillStyle = this.color;
+                context.fill();
+            };
+
+            function updateFireworks() {
+                context.clearRect(0, 0, canvas.width, canvas.height);
+
+                for (var i = 0; i < fireworks.length; i++) {
+                    fireworks[i].update();
+                    fireworks[i].draw();
+                }
+
+                for (var i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                    particles[i].draw();
+                }
+
+                if (Math.random() < 0.1) {
+                    fireworks.push(new Firework());
+                    hue = Math.random() * 360;
+                }
+
+                if (fireworks.length > 100) {
+                    fireworks.splice(0, 1);
+                }
+            }
+            // 页面加载时开始播放烟花效果
+            window.addEventListener("load", function() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+
+                setInterval(updateFireworks, 20);
+            });
+        }  
+
+        // 初始化烟花效果
+        createFirework();  
+
+        // 监听点击事件
+        var textElements = document.querySelectorAll(".celebration-text");
+        var currentIndex = 0;
+
+        document.addEventListener("click", function() {
+            if (currentIndex < textElements.length) {
+                textElements[currentIndex].style.display = "none"; // 隐藏当前文本  
+                textElements[currentIndex].style.animation = "fadeOut 2s ease-in-out"; // 添加淡出动画
+                currentIndex++;
+                if (currentIndex < textElements.length) {
+                    textElements[currentIndex].style.display = "block"; // 显示下一个文本  
+                    textElements[currentIndex].style.animation = "fadeIn 2s ease-in-out"; // 添加淡入动画
+                } else {  
+                    // 所有文本播放完后显示提示框  
+                    var confirmed = confirm("是否回到主页面?（其实你没得选，点那个都会回去）");  
+                    if (confirmed) {  
+                        // 重定向到 "ovule-seed.github.io"  
+                        window.location.href = "https://ovule-seed.github.io";  
+                    } else{ window.location.href = "https://ovule-seed.github.io";  } 
+                }  
+            }  
+        });
+    </script>
+</body>
+</html>
