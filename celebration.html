@@ -58,7 +58,7 @@
 <center>
 <span style="font-family: 黑体;">
   <font size="5">
-    中国容积党第二届全国代表大会 正在召开
+      <div id="countdown"></div>
 </font>
 </span>
 </center>
@@ -99,7 +99,7 @@
             // 重定向到 ovule-seed.github.io
             window.location.href = "https://ovule-seed.github.io";
         }
-var targetDate = new Date('2023-11-20T00:00:00').getTime();
+var targetDate = new Date('2024-11-20T00:00:00').getTime();
 
     // 更新倒计时函数
     function updateCountdown() {
@@ -112,7 +112,7 @@ var targetDate = new Date('2023-11-20T00:00:00').getTime();
       var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
       var countdownElement = document.getElementById('countdown');
-      countdownElement.innerHTML = '距离中国容积党诞生一周年·中容二大召开还有：'+days + ' 天 ' + hours + ' 小时 ' + minutes + ' 分钟 ' + seconds + ' 秒';
+      countdownElement.innerHTML = '距离中国容积党诞生二周年还有：'+days + ' 天 ' + hours + ' 小时 ' + minutes + ' 分钟 ' + seconds + ' 秒';
     }
 
     // 初始加载
