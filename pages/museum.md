@@ -204,7 +204,7 @@ permalink: /museum/
 简介：（时任教官 摄）第一次涵盖半数以上中容党员的合影以及部分党员特写，在中容历史上有重要意义。
 
 <div id="展品14">展品14：中容二大出席证模板（2023年11月29日收入）</div>
-<p align="center"><img src="![](https://pic.imgdb.cn/item/65674549c458853aef3a779e.jpg)" width="300" height="400" border="0"></p>
+<p align="center"><img src="https://pic.imgdb.cn/item/65674549c458853aef3a779e.jpg" width="300" height="400" border="0"></p>
 简介：（黄健博 摄）中国容积党第二次全国代表大会出席证模板，受广泛好评
 
 <br>
