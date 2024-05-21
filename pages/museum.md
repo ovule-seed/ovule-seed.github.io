@@ -266,4 +266,4 @@ permalink: /museum/
 </tr>
 </table>
 简介：2024年4月13日，中容中央总书记黄健博在浙江省象山中学新高一二班教室发表了《抽象是对大象的鞭挞》演讲。
-
+<a href="https://share.feijipan.com/s/RgALOgcj">点击下载视频</a>
