@@ -48,6 +48,8 @@ permalink: /museum/
 <a href="#展品17">展品17：《关于将党的工作重心暂时全面转向建设的议案》</a>
 <br>
 <a href="#展品18">展品18：《关于成立新高一二班政协的提案》</a>
+<br>
+<a href="#展品19">展品19：抽象演讲</a>
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
 	
 <table>
@@ -255,4 +257,13 @@ permalink: /museum/
 </table>
 简介：2024年3月39日，中容中央总书记黄健博、纳税党主席何俊泽、中国远视学社社长顾铭家、团员代表胡宸荣、群众代表张轲焱参加第一届新高一二班人民政治协商会议并在1号提案上签字。政治协商制度在新高一二班正式被确立，新高一二班从此由混乱走向了有序，由争斗走向了合作，由黑暗走向了光明。
 
+<div id="展品19">展品19：抽象演讲（2024年5月21日收入）：</div>	
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/664cb468d9c307b7e9e2f3ab.png" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/664cb469d9c307b7e9e2f5bb.png" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/664cb46ad9c307b7e9e2f6c0.png" border=0></td>
+</tr>
+</table>
+简介：2024年4月13日，中容中央总书记黄健博在浙江省象山中学新高一二班教室发表了《抽象是对大象的鞭挞》演讲。
 
