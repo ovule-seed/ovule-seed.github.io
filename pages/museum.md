@@ -50,7 +50,12 @@ permalink: /museum/
 <a href="#展品18">展品18：《关于成立新高一二班政协的提案》</a>
 <br>
 <a href="#展品19">展品19：抽象演讲</a>
+<br>
+<a href="#展品20">展品20：明信片</a>
+<br>
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
+
+
 	
 <table>
 <tr>
@@ -267,3 +272,12 @@ permalink: /museum/
 </table>
 简介：2024年4月13日，中容中央总书记黄健博在浙江省象山中学新高一二班教室发表了《抽象是对大象的鞭挞》演讲。
 <a href="https://share.feijipan.com/s/RgALOgcj">点击下载视频</a>
+
+<div id="展品20">展品20：应瑶老师、胡瑜老师赠予中容中央总书记黄健博的明信片（2024年6月24日收入）：</div>	
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/667d3fe8d9c307b7e994d3f6.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/667d3fe9d9c307b7e994d43d.jpg" border=0></td>
+</tr>
+</table>
+简介：2024年6月24日，应瑶老师、胡瑜老师向时任中容中央总书记黄健博赠予明信片
