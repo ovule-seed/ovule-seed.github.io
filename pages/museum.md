@@ -53,6 +53,8 @@ permalink: /museum/
 <br>
 <a href="#展品20">展品20：明信片</a>
 <br>
+<a href="#展品21">展品21：给胡宸荣同志的寄语</a>
+<br>
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
 
 
@@ -281,3 +283,12 @@ permalink: /museum/
 </tr>
 </table>
 简介：2024年6月24日，应瑶老师、胡瑜老师向时任中容中央总书记黄健博赠予明信片
+
+<div id="展品21">展品21：给胡宸荣同志的寄语（2024年7月11日收入）：</div>	
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/668fe452d9c307b7e99a7242.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/668fe452d9c307b7e99a72f4.jpg" border=0></td>
+</tr>
+</table>
+简介：2024年7月11日，中容中央总书记黄健博向前往欧洲研学的胡宸荣同志赠寄语。
