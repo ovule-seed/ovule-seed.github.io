@@ -7,6 +7,7 @@ comments: true
 menu: 关于
 permalink: /about/
 ---
+![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb226.png){: width="20%" } ![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb1ee.png){: width="20%" } ![image](https://pic.imgdb.cn/item/66a23130d9c307b7e961a817.png){: width="20%" }![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb1fb.png){: width="20%" } ![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb20f.png){: width="20%" } 
 
 ## 核心人物介绍
 ### 现任核心领导集体
