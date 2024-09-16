@@ -8,7 +8,14 @@ menu: 关于
 permalink: /about/
 ---
 
-![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb226.png){: width="15%" } ![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb1ee.png){: width="15%" } ![image](https://pic.imgdb.cn/item/66a23130d9c307b7e961a817.png){: width="20%" }&nbsp;&nbsp;![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb1fb.png){: width="15%" } ![image](https://pic.imgdb.cn/item/66a22f43d9c307b7e95eb20f.png){: width="15%" } 
+ ![image](https://pic.imgdb.cn/item/66e802dbd9c307b7e93b45f8.png){: width="10%" }
+ ![image](https://pic.imgdb.cn/item/66e802dcd9c307b7e93b46ba.png){: width="10%" }
+ ![image](https://pic.imgdb.cn/item/66e8029ed9c307b7e93b0747.png){: width="10%" } 
+ ![image](https://pic.imgdb.cn/item/66a23130d9c307b7e961a817.png){: width="20%" }&nbsp;&nbsp;
+ ![image](https://pic.imgdb.cn/item/66e802b7d9c307b7e93b21fd.png){: width="10%" }
+ ![image](https://pic.imgdb.cn/item/66e802dbd9c307b7e93b464b.png){: width="10%" }  
+ ![image](https://pic.imgdb.cn/item/66e802dcd9c307b7e93b4703.png){: width="10%" } 
+
 
 ## 核心人物介绍
 ### 现任核心领导集体
