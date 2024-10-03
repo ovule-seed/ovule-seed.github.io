@@ -57,6 +57,8 @@ permalink: /museum/
 <br>
 <a href="#展品22">展品22：中容中央总书记黄健博与远视学社社长顾铭家会晤</a>
 <br>
+<a href="#展品22">展品23：黄健博同志在宣讲</a>
+<br>
 
 
 <div id="展品1">展品1：中容中央总书记对GQ党主席石中昱的生日贺礼（2023年6月1日收入）：<div>
@@ -300,3 +302,7 @@ permalink: /museum/
 <div id="展品22">展品22：中容中央总书记黄健博与远视学社社长顾铭家会晤（2024年10月3日收入）：</div>	
 <p align="center"><img src="https://pic.imgdb.cn/item/66fded320a206445e372b9fa.jpg" width="400" height="300" border="0"></p>
 简介：2024年9月30日，中容中央总书记黄健博与远视学社社长顾铭家进行会晤，双方交流了重要意见。
+
+<div id="展品23">展品23：黄健博同志在宣讲：</div>	
+<p align="center"><img src="https://pic.imgdb.cn/item/66fdeffe0a206445e374b233.jpg" width="300" height="300" border="0"></p>
+简介：2024年9月30日，中容中央总书记黄健博在象山中学进行宣传工作，确立了以一想一义重要理论为核心，用党史加深认同，用英雄模范提升境界的宣传方针。
