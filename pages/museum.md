@@ -57,7 +57,9 @@ permalink: /museum/
 <br>
 <a href="#展品22">展品22：中容中央总书记黄健博与远视学社社长顾铭家会晤</a>
 <br>
-<a href="#展品22">展品23：黄健博同志在宣讲</a>
+<a href="#展品23">展品23：黄健博同志在宣讲</a>
+<br>
+<a href="#展品24">展品24：黄健博《致顾铭家社长》原信</a>
 <br>
 
 
@@ -306,3 +308,22 @@ permalink: /museum/
 <div id="展品23">展品23：黄健博同志在宣讲：</div>	
 <p align="center"><img src="https://pic.imgdb.cn/item/66fdeffe0a206445e374b233.jpg" width="300" height="300" border="0"></p>
 简介：2024年9月30日，中容中央总书记黄健博在象山中学进行宣传工作，确立了以一想一义重要理论为核心，用党史加深认同，用英雄模范提升境界的宣传方针。
+
+<div id="展品24">展品24：黄健博《致顾铭家社长》原信（2024年10月19日收入）<div>
+<table>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/6713c8c0d29ded1a8c00c76c.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c8c0d29ded1a8c00c79b.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c8c1d29ded1a8c00c7e2.jpg" border=0></td>
+</tr>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/6713c8c0d29ded1a8c00c65a.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c8c0d29ded1a8c00c6f0.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c98ad29ded1a8c01ac59.jpg" border=0></td>
+</tr>
+<tr>
+<td><img src="https://pic.imgdb.cn/item/6713c98ad29ded1a8c01af48.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c98ad29ded1a8c01b2b2.jpg" border=0></td>
+<td><img src="https://pic.imgdb.cn/item/6713c98bd29ded1a8c01b8ff.jpg" border=0></td>
+</tr>
+</table>
