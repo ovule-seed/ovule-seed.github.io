@@ -202,9 +202,8 @@ google:
         content_footer: false
 
 encoding: UTF-8
+
 sass:
-  style: :compressed
   sass_dir: _sass
-  sourcemap: never
-  # 添加字符集配置
-  charset: true  # 确保输出 @charset "UTF-8"
+  style: compressed
+  sass_engine: sass  # 使用 Dart Sass
