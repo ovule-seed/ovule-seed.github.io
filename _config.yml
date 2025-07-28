@@ -200,3 +200,11 @@ google:
         sidebar-detail: false
         content_header: false
         content_footer: false
+
+encoding: UTF-8
+sass:
+  style: :compressed
+  sass_dir: _sass
+  sourcemap: never
+  # 添加字符集配置
+  charset: true  # 确保输出 @charset "UTF-8"
