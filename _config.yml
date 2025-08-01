@@ -201,8 +201,6 @@ google:
         content_header: false
         content_footer: false
 
-encoding: UTF-8
-
 sass:
   sass_dir: _sass
   style: compressed
